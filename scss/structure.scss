@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 16px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: raleway-thin;
+    src: url(../css/fonts/Raleway-Thin.ttf);
+}
+
+@font-face {
+    font-family: raleway-thinIta;
+    src: url(/css/fonts/Raleway-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: raleway-regular;
+    src: url(../css/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: raleway-Ita;   
+    src: url(/css/fonts/Raleway-Italic.ttf);
+}
